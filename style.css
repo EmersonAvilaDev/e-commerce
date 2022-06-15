@@ -1,0 +1,108 @@
+
+  body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f5f54b;
+  }
+
+
+
+  .menu{
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -15px rgba(75, 73, 73, 0.1);
+  }
+
+  .menu-flex {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .container_menu{
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+
+  .menu-column {
+    display: flex;
+    align-items: center;
+    width: 46%;
+    justify-content: flex-start;
+
+  }
+
+  .menu-column.menu-second-column {
+    justify-content: flex-end;
+  }
+
+  .menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px; 
+  }
+
+  .menu-nav ul li a {
+    text-decoration: none;
+    color:#585E65;
+  }
+
+  .menu-link-button {
+
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+
+  .container_produtos{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+  .cards_produtos{
+    background: white;
+    border: 10px solid  #f5f5f54b;;
+    height: 400px;
+    width: 260px;
+    margin-top: 15px;
+    gap: 5px;
+  }
+
+
+  .cards_produtos p{
+    margin-left: 21px;
+  }
+
+  .cards_produtos img{
+    width: 220px;
+    height: 150px;
+    margin-top: 15px ;
+    margin-left:25px;
+  }
+
+  .add-carrinho-button{
+    text-decoration: none;
+    background-color: #4c6ef5;
+    height: 48px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
